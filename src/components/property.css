@@ -23,11 +23,68 @@
 .column {
   float: left;
   width: 25%;
+  font-size: 14px;
+  text-align: left;
 }
+
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.map-container{
+    width: 95%;
+    height: 175px;
+}
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+.diveder{
+    border: none;
+    height: 1px;
+    color: #333;
+    background-color: #4e444c;
+    
+}
+.img-icon{
+    padding-right: 6px;
+    vertical-align: middle;
+}
+.underground-icon {
+    width: 26px;
+    height: 20px;
+    
+}
+.price-value {
+    font-size: 23px;
+}
+.centered {
+    text-align: center !important;
+}
+.vertical-column{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.property-name-list-view{
+    font-size: 20px;
+    text-align: left;
+    padding-bttom: 5px;
+    font-weight: bold;
+    
+}
+.property-price-list-view{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 5px;
+}
+.mail-icon{
+    float: right;
+    padding: 10px;
 }
