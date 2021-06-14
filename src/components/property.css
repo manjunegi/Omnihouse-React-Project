@@ -1,0 +1,33 @@
+.main-page {
+    background-color: #2D232B;
+}
+.content-container {
+    background-color: #1c1a1d;
+    border-radius: 20px;
+    margin: 20px;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    color: white;
+}
+.content-top {
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+}
+.property-description {
+    text-align: left;
+    margin-left: 10px;
+    
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
