@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
 import SideBar from './components/sidebar';
 import Property from './components/property';
-
+function handleClick(){
+    console.log('button clicked');
+}
 function App() {
   return (
     <div className="App" id="outer-container">
@@ -12,10 +12,10 @@ function App() {
       <header className="App-header">
       <div className="flex-container header-button">
       <div className= "flex-child" >
-      <button className="login-button" onClick="">Login</button>
+      <button className="login-button" onClick={handleClick()}>Login</button>
       </div>
       <div className= "flex-child" >
-      <button className="signup-button" onClick="">Sign Up</button>
+      <button className="signup-button" onClick={handleClick()}>Sign Up</button>
       </div>
       </div>
       </header>

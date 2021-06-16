@@ -9,8 +9,7 @@ import close_icon from "./images/close_icon.svg";
 import bedroom_icon from "./images/bed_rooms_icon.svg";
 import toilet_icon from "./images/toilets_icon.svg";
 import livingroom_icon from "./images/living_room.svg";
-import GoogleMapReact from "google-map-react";
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 
 const fadeImages = [
   image1,image1,image1
@@ -21,18 +20,18 @@ export default props => {
     return(
 
         <div className="property-item">
-        <div className= "page-description-top"><Link to={'/'} className="nav-link"><img className="header-icon" src={close_icon}/></Link> <img className="header-icon" src={share_icon}/></div>
+        <div className= "page-description-top"><Link to={'/'} className="nav-link"><img className="header-icon" src={close_icon} alt = 'icon'/></Link> <img className="header-icon" src={share_icon} alt = 'icon'/></div>
           <br/>
           <div className="slide-container">
             <Fade>
               <div className="each-fade">
-                <img className= "img-responsive" src={fadeImages[0]} />
+                <img className= "img-responsive" src={fadeImages[0]} alt = 'property-image1'/>
               </div>
               <div className="each-fade">
-                <img className= "img-responsive" src={fadeImages[1]} />
+                <img className= "img-responsive" src={fadeImages[1]} alt = 'property-image2'/>
               </div>
               <div className="each-fade">
-                <img className= "img-responsive" src={fadeImages[2]} />
+                <img className= "img-responsive" src={fadeImages[2]} alt = 'property-image3'/>
               </div>
             </Fade>
           </div>

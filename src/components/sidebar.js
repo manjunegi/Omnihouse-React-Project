@@ -24,7 +24,7 @@ export default props => {
           <label> 
             <div className="label-heading">Minimum Beds</div>
             <select className="value-elememt select-element">
-              <option selected value="0">No min</option>
+              <option default value="0">No min</option>
               <option  value="1">1</option>
               <option  value="2">2</option>
               <option value="3">3</option>
@@ -37,7 +37,7 @@ export default props => {
           <label> 
           <div className="label-heading">Maximum Beds</div>
             <select className="value-elememt select-element">
-              <option selected value="0">No max</option>
+              <option default value="0">No max</option>
               <option  value="1">1</option>
               <option  value="2">2</option>
               <option value="3">3</option>
@@ -51,7 +51,7 @@ export default props => {
        <label> 
         <div className="label-heading">Price per</div>
           <select className="value-elememt select-element">
-            <option selected value="month">Month</option>
+            <option default value="month">Month</option>
             <option  value="year">Year</option>
           </select>
         </label>
@@ -61,7 +61,7 @@ export default props => {
           <label> 
             <div className="label-heading">Minimum price</div>
             <select className="value-elememt select-element">
-              <option selected value="0">No min</option>
+              <option default value="0">No min</option>
               <option  value="1">£0-50</option>
               <option  value="2">£50-100</option>
               <option value="3">£100-200</option>
@@ -72,7 +72,7 @@ export default props => {
           <label> 
           <div className="label-heading">Maximum price</div>
             <select className="value-elememt select-element">
-              <option selected value="0">No min</option>
+              <option default value="0">No min</option>
               <option  value="1">£0-50</option>
               <option  value="2">£50-100</option>
               <option value="3">£100-200</option>
