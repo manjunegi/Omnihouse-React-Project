@@ -17,8 +17,16 @@ The App is deployed on AWS Environment over AWS Amplify services.
 ## How to run the App Locally
 
 Runs the app in the development mode locally:
-You can clone the repository and run the following commands
-` npm install`
-`npm run build`
-`npm runstart`
+You can clone the repository and run the following commands \
+` npm install` \
+`npm run build`\
+`npm runstart` \
 Open http://localhost:8080 to view it in the browser.
+
+## Here are some snippets of the App:
+First view:
+![](https://github.com/manjunegi/Omnihouse-React-Project/blob/master/images/Image1.png)
+Second View:
+![](https://github.com/manjunegi/Omnihouse-React-Project/blob/master/images/Image2.png)
+Third view (Side menu bar is responsive and slideable):
+![](https://github.com/manjunegi/Omnihouse-React-Project/blob/master/images/Image3.png)
