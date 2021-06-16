@@ -16,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:#211F21;
   min-height: 8vh;
   display: flex;
   flex-direction: column;
@@ -50,4 +50,36 @@ body {
 
 .header-button {
 margin-right: 20px;
+margin-top: 13px;
+}
+
+@media (max-width: 700px) {
+  .flex-child-2{
+    flex:1;  
+  }
+
+
+}
+.login-button {
+  border: hidden;
+  background-color: #93227F;
+  border-radius: 30px;
+  width: 101px;
+  height: 39px;
+  font-family: Roboto;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+}
+.signup-button {
+      border: hidden;
+    background-color: #211F21;
+    font-family: Roboto;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
 }

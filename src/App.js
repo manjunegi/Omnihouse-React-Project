@@ -12,10 +12,10 @@ function App() {
       <header className="App-header">
       <div className="flex-container header-button">
       <div className= "flex-child" >
-      <button onClick="">Login</button>
+      <button className="login-button" onClick="">Login</button>
       </div>
       <div className= "flex-child" >
-      <button onClick="">Sign Up</button>
+      <button className="signup-button" onClick="">Sign Up</button>
       </div>
       </div>
       </header>

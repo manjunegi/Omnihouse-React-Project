@@ -4,19 +4,25 @@ import 'react-slideshow-image/dist/styles.css'
 import { Fade } from "react-slideshow-image";
 import image1 from './images/property1.png';
 import tube_icon from "./images/tube_icon.svg";
+import share_icon from "./images/share_icon.svg";
+import close_icon from "./images/close_icon.svg";
 import bedroom_icon from "./images/bed_rooms_icon.svg";
 import toilet_icon from "./images/toilets_icon.svg";
 import livingroom_icon from "./images/living_room.svg";
 import GoogleMapReact from "google-map-react";
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 const fadeImages = [
   image1,image1,image1
 ];
 
 export default props => {
+  
     return(
 
         <div className="property-item">
+        <div className= "page-description-top"><Link to={'/'} className="nav-link"><img className="header-icon" src={close_icon}/></Link> <img className="header-icon" src={share_icon}/></div>
+          <br/>
           <div className="slide-container">
             <Fade>
               <div className="each-fade">

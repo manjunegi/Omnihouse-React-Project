@@ -4,10 +4,9 @@
 .content-container {
     background-color: #1c1a1d;
     border-radius: 20px;
-    margin: 20px;
-    margin-right: 20vh;
-    margin-left: 20vh;
+    margin: 0 auto;
     color: white;
+    width:50%;
 }
 .content-top {
     text-align: left;
@@ -67,24 +66,82 @@
 }
 .vertical-column{
     text-align: left;
-    padding-bottom: 10px;
-    padding-left: 5px;
+    padding: 5px;
     font-size: 14px;
 }
 .property-name-list-view{
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
-    padding-bttom: 5px;
+    padding: 5px;
     font-weight: bold;
+    margin-top: 5px;
     
 }
 .property-price-list-view{
     font-size: 23px;
     font-weight: bold;
     text-align: left;
-    padding-bottom: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 .mail-icon{
     float: right;
     padding: 10px;
+}
+.property-list-view{
+    margin: 10px;
+    
+}
+
+.flex-container-2 {
+    display: flex;
+}
+@media only screen and (max-width: 1100px){
+    .flex-container-2 {
+    display: block;
+}
+    
+}
+.flex-child-1{
+    flex:1;
+    margin-right: 15px;
+}
+.flex-child-2{
+    flex:2;
+}
+.header-icon {
+    width: 15px;
+    height: 15px;
+    float: right;
+    padding-right: 5px;
+}
+.page-description-top{
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+}
+.property-item {
+    display:block;
+}
+.slide-container {
+    margin-top: 20px;
+    
+}
+.page-wrap{
+    overflow-y: scroll;
+    height: 1200px;
+}
+.nav-link-custom{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    flex:2;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.mail-box-icon {
+    float: right;
 }
